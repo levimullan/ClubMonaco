@@ -1,0 +1,107 @@
+$somecolor: orange;
+
+.lv-navBar{
+	background-color: $somecolor;
+}
+
+.lv-text{
+    
+	letter-spacing: 2px;
+	color:white;
+	font-family: "Times New Roman", times, serif;
+	font-size: 11px;
+	font-variant: small-caps;
+    text-align: center;
+}
+
+.lv-column{
+	
+    margin-bottom:20px;
+    
+}
+
+.lv-image{
+    height:100%;
+    width:100%;
+}
+
+.lv-input{
+	background-color: transparent;
+	border-style: white;
+	border-radius: 0px;
+    height:25px;
+    margin-top: 5px;
+}
+
+.lv-button{
+	color:white; 
+	height:30px;
+}
+.lv-dropDown {
+    color:white;
+}
+
+.lv-span {
+    color:white;
+}
+
+.lv-newButton {
+    background-color: transparent;
+    color:white;
+    margin-top:12px;
+}
+
+.galleryContainer {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.lv-logoImage {
+    height:20px; 
+    padding-top: 2px;
+}
+
+
+.wrapper {
+    background-color:rgba(0,0,0,0.3);
+    width:500px;
+    height:500px;
+    border-radius:20px;
+    margin-top:80px;
+}
+
+.img-wrapper {
+    width:300px;
+    height:100vh;
+    float:left;
+    overflow:hidden;
+}
+
+.lv-img {
+    width:100%;
+    margin-left:0px;
+    border-radius:  20px 0px 0px 20px;
+}
+
+.lv-container {
+    float:right;
+    width:150px;
+    margin-top:25px;
+    margin-right:25px;
+}
+
+.fixed-transparent{
+    background-color: transparent;
+    position:fixed;
+    border-style: none;
+}
+
+dialog::backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
